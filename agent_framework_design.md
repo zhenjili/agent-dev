@@ -12,7 +12,7 @@ Layer 3: Application (chat_routes.py)
   │
   ▼
 Layer 2: Agent Runtime (app/agent/)
-  │  AgentState (request-scoped, 无session概念)
+  │  AgentState (request-scoped, 无对话session概念)
   │  run_agent_turn(resolve_provider, state, tools, transform, hooks)
   │  通过 hooks 回调应用层，自身不依赖任何DB/Service类型
   │
