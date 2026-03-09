@@ -3,6 +3,7 @@
 ## 有用的MCP 和 Skills
 
 ## Tips
-定期让claude review 性能， review 架构逻辑。
-让Claude 把reported bugs 总结到doc, 根据bug 进行架构更好的设计。
-让Claude 建立全面的模拟测试（模拟前端操作）来确保后端逻辑在code改动时不会出现regression。
+让claude定期review 架构，可扩展性改进。
+让claude维护性能测试doc， 持续更新，定期跑性能测试doc
+让Claude维护一个bug 记录doc，每个bug 写下复现操作。定义让claude 检查是否bug 还存在。
+让Claude 建立全面的E2E模拟测试doc，持续更新，定期让claude 跑全部或制定的E2E测试。
